@@ -42,7 +42,7 @@ https://blog.csdn.net/weixin_34417183/article/details/88928123
 使用 Docker
 
 ```
-$ docker run --restart=always --name unmusic -v /root/docker/unmusic/crt/server.crt:/usr/src/app/server.crt -v /root/docker/unmusic/crt/server.key:/usr/src/app/server.key -d -p 80:8080 -p 443:8081 nondanee/unblockneteasemusic --port 8080:8081
+$ docker run --restart=always --name unmusic -v /root/docker/unmusic/crt/server.crt:/usr/src/app/server.crt -v /root/docker/unmusic/crt/server.key:/usr/src/app/server.key -d -p 80:8080 -p 443:8081 nondanee/unblockneteasemusic --port 8080:8081 --strict
 ```
 
 ## 使用
